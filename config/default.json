@@ -1,3 +1,4 @@
 {
-  "jwtSecret": "myplants_JwtSecret"
+  "jwtSecret": "movies_JwtSecret",
+  "API_KEY": "82222cc56df18e4a9cfe0e10ceeff574"
 }

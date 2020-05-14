@@ -1,0 +1,128 @@
+.registerFrom {
+  margin: 12% auto;
+  width: 19em;
+  text-align: center;
+  position: relative;
+  -webkit-animation: moveDown 0.3s;
+  -moz-animation: moveDown 0.3s;
+  animation: moveDown 0.3s;
+  -webkit-animation-fill-mode: forwards;
+  -moz-animation-fill-mode: forwards;
+  animation-fill-mode: forwards;
+}
+
+input {
+  color: #444;
+  font-size: 1.5em;
+  outline: none;
+  box-shadow: none;
+  -webkit-appearance: none;
+  border-radius: 0;
+  border-top: none;
+  border-left: solid 1px;
+  border-right: solid 1px;
+  border-bottom: solid 1px;
+  border-color: #bbb;
+  background: transparent;
+  display: block;
+  height: 2em;
+  width: 12em;
+  margin-bottom: 5%;
+  padding: 0 -3%;
+  position: relative;
+  z-index: 0;
+  -webkit-transition: border 0.25s;
+  -moz-transition: border 0.25s;
+  -o-transition: border 0.25s;
+  transition: border 0.25s;
+}
+
+.scrolling-wrapper {
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+}
+
+.card {
+  display: inline-block;
+}
+
+.initial {
+  background-color: blueviolet;
+}
+
+form.registerFrom {
+  background-color: white;
+  height: 60vh;
+  padding-left: 2%;
+  padding-right: 2%;
+  border: 1px solid black;
+}
+.general {
+  display: flex;
+  height: 100vh;
+  background-color: blueviolet;
+}
+
+.first {
+  width: 40vw;
+  background-color: blueviolet;
+}
+.third {
+  width: 40vw;
+  background-color: blueviolet;
+}
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px 10px;
+}
+
+.row {
+  margin: 0 -5px;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
+.top {
+  height: 100%;
+}
+
+.navbar {
+  height: 10vh;
+  background-color: black;
+}
+
+.DetailBox {
+  display: flex;
+  margin: 10px 5px;
+}
+
+.detailInfo {
+  margin-left: 10px;
+}
+
+.input {
+  border-style: none;
+  margin-top: 5px;
+  margin-left: 38%;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  margin-top: 5px;
+  margin-left: 42%;
+}
+
+.searchResults {
+  margin-left: 5%;
+}
+
+.default {
+  height: 278px;
+  width: 185px;
+}
